@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .c{
+            border: 2px solid;
+            background-color: orange;
+            padding: 20px;
+            display: grid;
+             /* height:700px;  */
+            
+            justify-content: space-around;
+            grid-template-columns:repeat(auto-fill,minmax(200px,250px));
+            grid-template-rows: 100px 100px 100px 100px 100px 100px ;
+            row-gap: 10px;
+            column-gap: 10px;
+            
+        }
+        .c1{
+            background-color: bisque;
+            grid-column-start: 1;
+            grid-column-end: 4;
+          
+        } 
+        .c2{
+            background-color:darkcyan;
+          grid-row-start: 2;
+          grid-row-end: 4;
+          
+        }
+        .c3{
+            background-color:dimgray;
+            
+           
+          
+
+
+        }
+        .c4{
+            background-color:aqua;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        
+            
+        }
+        .c5{
+            background-color:blueviolet;
+           
+          
+        }
+        .c6{
+            background-color: green;
+            grid-column-start: 1;
+            grid-column-end: 4;
+
+           
+        }
+       
+    </Style>
+</head>
+<body>
+    <div class="c">
+    <div class="c1">virat</div>
+    <div class="c2">raina</div>
+    <div class="c3">yuvi</div>
+    <div class="c4">shami</div>
+    <div class="c5">shiva</div>
+    <div class="c6">thilak</div>
+    </div>
+    
+</body>
+</html>
